@@ -1,7 +1,11 @@
 import './Button.css'
 
-const Button = () => {
-  return <button className="button">Искать</button>
+const Button = ({ children, className, handlerClick }) => {
+  return (
+    <button className={className} onClick={handlerClick}>
+      {children}
+    </button>
+  )
 }
 
 export default Button

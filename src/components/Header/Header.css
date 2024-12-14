@@ -6,8 +6,11 @@ a {
 .header__inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   font-size: 16px;
+
+  height: 80px;
 }
 
 .menu {
@@ -29,4 +32,9 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.bookmark {
+  width: 40px;
+  height: 40px;
 }

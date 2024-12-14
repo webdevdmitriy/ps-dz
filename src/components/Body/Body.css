@@ -3,3 +3,18 @@
   align-items: center;
   gap: 8px;
 }
+
+.paragraph {
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+
+.cards {
+  margin-top: 80px;
+  display: grid;
+  justify-content: space-between;
+
+  row-gap: 16px;
+
+  grid-template-columns: repeat(4, 282px);
+}
